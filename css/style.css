@@ -1,0 +1,137 @@
+*{
+    margin:auto;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+display:flex;
+padding: 35px 16px;
+}
+ .text a{
+    color:#1B1B1B;
+    font-size: 12px;
+    padding:0px 22px;
+    margin:auto;
+    width: 50%;
+}
+.logo img{
+    width:50%;
+}
+section .first {
+    display: flex;
+    background-color: #F3F3F3;
+}
+
+section .first .text {
+    text-align: justify;
+    padding-bottom: 3rem;
+  
+    
+}
+section .first .text span{
+    padding-bottom: 12px;
+    font-size: 60px;
+    font-weight: 400;
+    color:red;  
+}
+
+section .first .text h1 {
+    padding-bottom: 12px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+section .first  .text p {
+    color:gray;
+    font-size: 20px;
+}
+
+section .first  .image {
+    display: flex;
+  
+}
+
+section .first  .image img {
+    width: 100%;
+}
+#Flowers .flower {
+   
+    padding: 6rem;
+}
+
+#Flowers .flower .links .all  {
+    margin-left: 20px;
+    font-size: 12px;
+    color:black;
+    font-weight: 600;
+}
+#Flowers .flower a {
+    margin-left: 20px;
+    font-size: 12px;
+    color:gray;
+    font-weight: 600;
+}
+
+
+#Flowers .flower .fllinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Flowers .flower .fllinks .links {
+    width: 60%;
+    text-align: start;
+    display: flex;
+}
+
+#Flowers .flower .fllinkss .title {
+    width: 40%;
+    text-align: right;
+}
+
+.all-flowers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.all-flowers .box {
+    text-align: center;
+    margin-left: 20px;
+    width: 20%;
+    margin-bottom: 55px;
+    padding: 5px;
+}
+
+.all-flowers.box image img {
+    width: 100%;
+    border: 1px solid rgb(230, 229, 229);
+}
+.all-flowers .box h5 {
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    letter-spacing: 3px;
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+
+
+.all-flowers .box .prtitle span {
+    color: gray;
+}
+
+.all-flowers .box a {
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-bottom: 4rem;
+    color: #929292;
+}
+
+.all-flowers .box p {
+    color: #929292;
+}
